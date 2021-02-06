@@ -24,6 +24,7 @@
 		A35D6A1F25CEBA2700DFD2FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A35D6A2225CEBA2700DFD2FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A35D6A2425CEBA2700DFD2FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A35D6A2B25CEBE3000DFD2FD /* NFCTagReader-Sample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "NFCTagReader-Sample.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		A35D6A1525CEBA2600DFD2FD /* NFCTagReader-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				A35D6A2B25CEBE3000DFD2FD /* NFCTagReader-Sample.entitlements */,
 				A35D6A1625CEBA2600DFD2FD /* AppDelegate.swift */,
 				A35D6A1825CEBA2600DFD2FD /* SceneDelegate.swift */,
 				A35D6A1A25CEBA2600DFD2FD /* ViewController.swift */,
@@ -286,8 +288,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NFCTagReader-Sample/NFCTagReader-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WZVL64ZRW7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "NFCTagReader-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,8 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "NFCTagReader-Sample/NFCTagReader-Sample.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WZVL64ZRW7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "NFCTagReader-Sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
